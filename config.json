@@ -1,3 +1,4 @@
+
 {
   "log": {
     "loglevel": "warning"
@@ -8,8 +9,9 @@
     "settings": {
       "clients": [
         {
-          "id": "33044f27-744a-4c03-afac-9eb29bc6e489",
-          "alterId": 64
+          "id": "ce260d08-3829-4205-b123-94519418eb6b",
+          "alterId": 64,
+          "security": "chacha20-poly1305"
         }
       ]
     },
@@ -17,8 +19,9 @@
       "network": "ws"
     }
   },
+  "inboundDetour": [],
   "outbound": {
     "protocol": "freedom",
-    "settings": {}
+   "settings": {}
   }
 }
